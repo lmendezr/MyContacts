@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/E:/Dropbox/Android%20Workspace/MyContacts/res/values-sw720dp-land/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">128dp</dimen>
+
+</resources>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="E:\Dropbox\Android Workspace\MyContacts\res" >
+            <file
+                name="ic_action_accept"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-hdpi\ic_action_accept.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_discard"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-hdpi\ic_action_discard.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_edit"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-hdpi\ic_action_edit.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_new"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-hdpi\ic_action_new.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_next_item"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-hdpi\ic_action_next_item.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-hdpi\ic_action_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_accept"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-mdpi\ic_action_accept.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_discard"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-mdpi\ic_action_discard.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_edit"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-mdpi\ic_action_edit.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_new"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-mdpi\ic_action_new.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_next_item"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-mdpi\ic_action_next_item.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-mdpi\ic_action_search.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_accept"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xhdpi\ic_action_accept.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_discard"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xhdpi\ic_action_discard.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_edit"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xhdpi\ic_action_edit.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_new"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xhdpi\ic_action_new.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_next_item"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xhdpi\ic_action_next_item.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xhdpi\ic_action_search.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_accept"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xxhdpi\ic_action_accept.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_discard"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xxhdpi\ic_action_discard.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_edit"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xxhdpi\ic_action_edit.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_new"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xxhdpi\ic_action_new.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_next_item"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xxhdpi\ic_action_next_item.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xxhdpi\ic_action_search.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_add_address"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\layout\activity_add_address.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_add_contact"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\layout\activity_add_contact.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_edit_address"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\layout\activity_edit_address.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_edit_contact"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\layout\activity_edit_contact.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\layout\activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_view_contact"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\layout\activity_view_contact.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="detailed_address_row"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\layout\detailed_address_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="simple_address_row"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\layout\simple_address_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="simple_contact_row"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\layout\simple_contact_row.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="edit_menu"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\menu\edit_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main_menu"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\menu\main_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="save_menu"
+                path="E:\Dropbox\Android Workspace\MyContacts\res\menu\save_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="E:\Dropbox\Android Workspace\MyContacts\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="small_separator_margin" >8dp
+                </dimen>
+                <dimen name="activity_padding" >16dp
+                </dimen>
+                <dimen name="large_separator_margin" >16dp
+                </dimen>
+                <dimen name="small_font_size" >16sp
+                </dimen>
+                <dimen name="medium_font_size" >18sp
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="huge_font_size" >30sp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="large_font_size" >20sp
+                </dimen>
+            </file>
+            <file
+                path="E:\Dropbox\Android Workspace\MyContacts\res\values\strings.xml"
+                qualifiers="" >
+                <string name="dialog_title_save_contact" >Contact Save
+                </string>
+                <string name="hint_email" >Email
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="dialog_title_save_address" >Address Save
+                </string>
+                <string name="title_activity_add_address" >Add Address
+                </string>
+                <string name="hint_cell_phone" >Cell Phone
+                </string>
+                <string name="dialog_message_save_address" >You must provide a name for the address.
+                </string>
+                <string name="button_delete_address" >Delete Address
+                </string>
+                <string name="hint_full_name" >Full Name
+                </string>
+                <string name="dialog_message_delete_address" >Are you sure you want to delete this address?
+                </string>
+                <string name="button_add_address" >Add Address
+                </string>
+                <string name="dialog_title_delete" >Confirm Delete
+                </string>
+                <string name="title_section_adresses" >Addresses
+                </string>
+                <string name="toast_all_contacts_deleted" >All My Friends Are Dead (8)
+                </string>
+                <string name="dialog_message_save_contact" >You must provide a name for your contact.
+                </string>
+                <string name="title_activity_edit_address" >Edit Address
+                </string>
+                <string name="hint_address_name" >Name
+                </string>
+                <string name="dialog_message_delete_contact" >Are you sure you want to delete this contact?
+                </string>
+                <string name="title_activity_edit_contact" >Edit Contact
+                </string>
+                <string name="dialog_affirm" >Yes
+                </string>
+                <string name="action_edit_contact" >Edit
+                </string>
+                <string name="hint_last_name" >Last Name
+                </string>
+                <string name="action_add_contact" >Add
+                </string>
+                <string name="toast_contact_saved" >Contact successfully saved!
+                </string>
+                <string name="action_delet_all_contact" >Delete All
+                </string>
+                <string name="hint_address_zip_code" >Zip Code
+                </string>
+                <string name="hint_address_number" >Number
+                </string>
+                <string name="hint_address_street" >Street
+                </string>
+                <string name="hint_first_name" >First Name
+                </string>
+                <string name="dialog_message_delete_all_contacts" >Are you sure you want to delete all your contacts?
+                </string>
+                <string name="hint_address_city" >City
+                </string>
+                <string name="title_activity_view_contact" >View Contact
+                </string>
+                <string name="search_hint" >Search My Contacts
+                </string>
+                <string name="toast_contact_deleted" >Contact deleted.
+                </string>
+                <string name="toast_address_saved" >Address successfully saved!
+                </string>
+                <string name="button_delete_contact" >Delete Contact
+                </string>
+                <string name="action_accept_contact" >Save
+                </string>
+                <string name="hint_address_state" >State
+                </string>
+                <string name="dialog_deny" >No
+                </string>
+                <string name="hint_work_phone" >Work Phone
+                </string>
+                <string name="app_name" >My Contacts
+                </string>
+                <string name="toast_address_deleted" >Address deleted.
+                </string>
+                <string name="dialog_confirm" >Okay
+                </string>
+                <string name="action_cancel_changes" >Cancel
+                </string>
+                <string name="title_activity_add_contact" >Add Contact
+                </string>
+            </file>
+            <file
+                path="E:\Dropbox\Android Workspace\MyContacts\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="E:\Dropbox\Android Workspace\MyContacts\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="E:\Dropbox\Android Workspace\MyContacts\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="E:\Dropbox\Android Workspace\MyContacts\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="E:\Dropbox\Android Workspace\MyContacts\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="E:\Dropbox\Android Workspace\MyContacts\build-types\debug\res" />
+    </dataSet>
+
+</merger>

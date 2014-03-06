@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding" >
+
+    <EditText
+        android:id="@+id/edit_first_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_first_name"
+        android:inputType="textPersonName" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit_last_name_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_first_name_field"
+        android:hint="@string/hint_last_name" />
+
+    <EditText
+        android:id="@+id/edit_cell_phone_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_last_name_field"
+        android:ems="10"
+        android:hint="@string/hint_cell_phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edit_work_phone_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_cell_phone_field"
+        android:ems="10"
+        android:hint="@string/hint_work_phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edit_email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_work_phone_field"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/add_address_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_email_field"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:onClick="addAddress"
+        android:text="@string/button_add_address"
+        android:textColor="@android:color/white" />
+
+    <ListView
+        android:id="@+id/edit_addresses_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/InnerRelativeLayout"
+        android:layout_below="@id/add_address_button"
+        android:layout_marginBottom="@dimen/large_separator_margin"
+        android:layout_marginTop="@dimen/large_separator_margin" />
+
+    <RelativeLayout
+        android:id="@+id/InnerRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/discard_contact_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:onClick="deleteContact"
+            android:text="@string/button_delete_contact"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

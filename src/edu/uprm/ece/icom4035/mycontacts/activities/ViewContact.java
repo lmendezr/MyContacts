@@ -1,0 +1,121 @@
+package edu.uprm.ece.icom4035.mycontacts.activities;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v4.app.NavUtils;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ListView;
+import android.widget.TextView;
+import edu.uprm.ece.icom4035.mycontacts.adapters.DetailedAddressListAdapter;
+import edu.uprm.ece.icom4035.mycontacts.managers.Contact;
+import edu.uprm.ece.icom4035.mycontacts.managers.ContactsManager;
+import edu.uprm.edu.icom4035.mycontacts.R;
+
+public class ViewContact extends Activity {
+
+	public static final String EXTRA_MESSAGE = "edu.uprm.ece.icom4015.mycontact.MESSAGE";
+
+	private ContactsManager contactsManager;
+	private ListView listView;
+	private DetailedAddressListAdapter adapter;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_view_contact);
+		// Show the Up button in the action bar.
+		setupActionBar();
+
+		populateDetails();
+	}
+
+	public void populateDetails() {
+		contactsManager = new ContactsManager();
+		TextView textView = new TextView(this);
+
+		Contact currentContact = contactsManager.getAll()
+				.get(getContactIndex());
+
+		textView = (TextView) findViewById(R.id.display_full_name);
+		textView.setText(currentContact.getSpecificDetail(Contact.FIRST_NAME)
+				+ " " + currentContact.getSpecificDetail(Contact.LAST_NAME));
+
+		textView = (TextView) findViewById(R.id.display_cell_phone);
+		textView.setText(currentContact.getSpecificDetail(Contact.CELL_PHONE));
+
+		textView = (TextView) findViewById(R.id.display_work_phone);
+		textView.setText(currentContact.getSpecificDetail(Contact.WORK_PHONE));
+
+		textView = (TextView) findViewById(R.id.display_email);
+		textView.setText(currentContact.getSpecificDetail(Contact.EMAIL));
+
+		listView = (ListView) findViewById(R.id.addresses_list);
+		adapter = new DetailedAddressListAdapter(this, contactsManager.getAll()
+				.get(getContactIndex()).getAddresses());
+		listView.setAdapter(adapter);
+	}
+
+	/**
+	 * Set up the {@link android.app.ActionBar}.
+	 */
+	private void setupActionBar() {
+
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+
+	}
+
+	public void editContact(int contactIndex) {
+		Intent intent = new Intent(this, EditContact.class);
+		String message = ((Integer) contactIndex).toString();
+		intent.putExtra(EXTRA_MESSAGE, message);
+		startActivityForResult(intent, 1);
+	}
+
+	public int getContactIndex() {
+		return Integer.parseInt(getIntent().getStringExtra(
+				MainActivity.EXTRA_MESSAGE));
+	}
+
+	@Override
+	protected void onResume() {
+		populateDetails();
+		super.onResume();
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.edit_menu, menu);
+		return true;
+	}
+
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+		if (resultCode == 1) {
+			finish();
+		}
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case android.R.id.home:
+			// This ID represents the Home or Up button. In the case of this
+			// activity, the Up button is shown. Use NavUtils to allow users
+			// to navigate up one level in the application structure. For
+			// more details, see the Navigation pattern on Android Design:
+			//
+			// http://developer.android.com/design/patterns/navigation.html#up-vs-back
+			//
+			NavUtils.navigateUpFromSameTask(this);
+			return true;
+		case R.id.action_edit_contact:
+			editContact(getContactIndex());
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
+}

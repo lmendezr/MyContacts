@@ -1,0 +1,125 @@
+package edu.uprm.ece.icom4035.mycontacts.adapters;
+
+import java.util.Locale;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.Filter;
+import android.widget.Filterable;
+import android.widget.TextView;
+import edu.uprm.ece.icom4035.mycontacts.managers.Contact;
+import edu.uprm.ece.icom4035.mycontacts.managers.SortedArrayList;
+import edu.uprm.edu.icom4035.mycontacts.R;
+
+public class MainListAdapter extends BaseAdapter implements Filterable {
+	private Context mContext;
+	private SortedArrayList<Contact> mListContacts;
+	private filter_here filter = new filter_here();
+
+	public MainListAdapter(Context context, SortedArrayList<Contact> list) {
+		mContext = context;
+		mListContacts = list;
+	}
+
+	@Override
+	public int getCount() {
+		return mListContacts.size();
+	}
+
+	@Override
+	public Object getItem(int pos) {
+		return mListContacts.get(pos);
+	}
+
+	@Override
+	public long getItemId(int pos) {
+		return mListContacts.get(pos).getID();
+	}
+
+	@Override
+	public View getView(int pos, View convertView, ViewGroup parent) {
+		// get selected entry
+		Contact entry = mListContacts.get(pos);
+
+		// inflating list view layout if null
+		if (convertView == null) {
+			LayoutInflater inflater = LayoutInflater.from(mContext);
+			convertView = inflater.inflate(R.layout.simple_contact_row, null);
+		}
+
+		TextView textView = new TextView(mContext);
+
+		// set name
+		textView = (TextView) convertView
+				.findViewById(R.id.display_contact_name);
+		textView.setText(entry.getSpecificDetail(Contact.FIRST_NAME) + " "
+				+ entry.getSpecificDetail(Contact.LAST_NAME));
+
+		// set phone
+		textView = (TextView) convertView
+				.findViewById(R.id.display_contact_cell_phone);
+		textView.setText(entry.getSpecificDetail(Contact.CELL_PHONE));
+
+		// set email
+		textView = (TextView) convertView
+				.findViewById(R.id.display_contact_email);
+		textView.setText(entry.getSpecificDetail(Contact.EMAIL));
+
+		return convertView;
+	}
+
+	@Override
+	public Filter getFilter() {
+		return this.filter;
+	}
+
+	public class filter_here extends Filter {
+
+		@Override
+		protected FilterResults performFiltering(CharSequence constraint) {
+
+			FilterResults Result = new FilterResults();
+			// if constraint is empty return the original names
+			if (constraint == null || constraint.length() == 0) {
+				Result.values = mListContacts;
+				Result.count = mListContacts.size();
+				return Result;
+			}
+
+			SortedArrayList<Contact> Filtered_Names = new SortedArrayList<Contact>();
+			String filterString = constraint.toString().toLowerCase(
+					Locale.getDefault());
+			String filterableString, filterableString2;
+
+			for (int i = 0; i < mListContacts.size(); i++) {
+				filterableString = mListContacts.get(i).getSpecificDetail(
+						Contact.FIRST_NAME);
+				filterableString2 = mListContacts.get(i).getSpecificDetail(
+						Contact.LAST_NAME);
+				if (filterableString.toLowerCase(Locale.getDefault()).contains(
+						filterString)
+						|| filterableString2.toLowerCase(Locale.getDefault())
+								.contains(filterString)) {
+					Filtered_Names.add(mListContacts.get(i));
+				}
+			}
+			Result.values = Filtered_Names;
+			Result.count = Filtered_Names.size();
+
+			return Result;
+		}
+
+		@SuppressWarnings("unchecked")
+		@Override
+		protected void publishResults(CharSequence constraint,
+				FilterResults results) {
+			mListContacts = (SortedArrayList<Contact>) results.values;
+			notifyDataSetChanged();
+		}
+
+	}
+
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding" >
+
+    <EditText
+        android:id="@+id/edit_address_name_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_address_name" />
+
+    <EditText
+        android:id="@+id/edit_address_street_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_address_street" />
+
+    <EditText
+        android:id="@+id/edit_address_number_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_address_number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edit_address_city_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_address_city" />
+
+    <EditText
+        android:id="@+id/edit_address_state_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_address_state" />
+
+    <EditText
+        android:id="@+id/edit_address_zip_code_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_address_zip_code"
+        android:inputType="number" />
+
+</LinearLayout><!-- From: file:/E:/Dropbox/Android%20Workspace/MyContacts/res/layout/activity_add_address.xml -->

@@ -1,0 +1,17 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1382542399164 3791 dbf2ad27b9f367eb8d88d86330cee0181a48e441 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\activities\ViewContact.java
+1382540448100 6741 44f2e5e28b88d14997c9b4900edbe49859dc0b97 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\managers\ContactsManager.java
+1382540786235 7179 d4f4bcea90e619eea4d7048d7cc23dc0df29e66c E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\activities\EditContact.java
+1382539718956 10713 5798f8a9dd73a9e2d317950cbc59f2ca5939acc2 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\managers\Contact.java
+1382280201092 6889 6d9ef20a36c5b7a768c852f7a4d03ad45fd036a4 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\managers\SortedArrayList.java
+1382367833856 2427 f905f80c89a2e42117dd0a541489c4ea65a828d1 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\adapters\DetailedAddressListAdapter.java
+1382541878414 3086 88919af763d18a8a049aa8af620823e278e567e7 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\activities\AddContact.java
+1382542404983 4559 7af401a1ebaf249cf169fd4b9381df0014bec119 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\activities\MainActivity.java
+1382277302978 3868 69a4d94664c52b91b2ffd14caba5311f837e3c3b E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\managers\SortedList.java
+1382540878721 3490 f7afa3f0a0bb216182974880c00e8f1995568f02 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\activities\AddAddress.java
+1382367833910 3630 178ef72fb85d191f877c1689a21bda7562d6cdde E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\adapters\MainListAdapter.java
+1382367820999 5886 b377fa09c638cc82115fd0cdc4bf619e0fba7683 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\activities\EditAddress.java
+1382286857193 3660 23b82f89a0c1313c64f3d5460eebe83ef38b86f9 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\managers\ContactStore.java
+1382367833880 1517 d26dfb50390d37e09783608e0d08e8b9593f0894 E:\Dropbox\Android Workspace\MyContacts\src\edu\uprm\ece\icom4035\mycontacts\adapters\SimpleAddressListAdapter.java

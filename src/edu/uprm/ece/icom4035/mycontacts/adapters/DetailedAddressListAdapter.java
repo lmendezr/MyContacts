@@ -1,0 +1,85 @@
+package edu.uprm.ece.icom4035.mycontacts.adapters;
+
+import java.util.ArrayList;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+import edu.uprm.ece.icom4035.mycontacts.managers.Contact.Address;
+import edu.uprm.edu.icom4035.mycontacts.R;
+
+public class DetailedAddressListAdapter extends BaseAdapter {
+	private Context mContext;
+	private ArrayList<Address> mListAddresses;
+
+	public DetailedAddressListAdapter(Context context, ArrayList<Address> list) {
+		mContext = context;
+		mListAddresses = list;
+	}
+
+	@Override
+	public int getCount() {
+		return mListAddresses.size();
+	}
+
+	@Override
+	public Object getItem(int pos) {
+		return mListAddresses.get(pos);
+	}
+
+	@Override
+	public long getItemId(int pos) {
+		return pos;
+	}
+
+	@Override
+	public View getView(int pos, View convertView, ViewGroup parent) {
+		// get selected entry
+		Address entry = mListAddresses.get(pos);
+
+		// inflating list view layout if null
+		if (convertView == null) {
+			LayoutInflater inflater = LayoutInflater.from(mContext);
+			convertView = inflater.inflate(R.layout.detailed_address_row, null);
+		}
+
+		TextView textView = new TextView(mContext);
+
+		// set name
+		textView = (TextView) convertView
+				.findViewById(R.id.display_address_name);
+		textView.setText(entry.getAddressSpecificDetail(Address.ADDRESS_NAME));
+
+		// set name
+		textView = (TextView) convertView
+				.findViewById(R.id.display_address_street);
+		textView.setText(entry.getAddressSpecificDetail(Address.ADDRESS_STREET));
+
+		// set name
+		textView = (TextView) convertView
+				.findViewById(R.id.display_address_number);
+		textView.setText(entry.getAddressSpecificDetail(Address.ADDRESS_NUMBER));
+
+		// set name
+		textView = (TextView) convertView
+				.findViewById(R.id.display_address_city);
+		textView.setText(entry.getAddressSpecificDetail(Address.ADDRESS_CITY));
+
+		// set name
+		textView = (TextView) convertView
+				.findViewById(R.id.display_address_state);
+		textView.setText(entry.getAddressSpecificDetail(Address.ADDRESS_STATE));
+
+		// set name
+		textView = (TextView) convertView
+				.findViewById(R.id.display_address_zip_code);
+		textView.setText(entry
+				.getAddressSpecificDetail(Address.ADDRESS_ZIP_CODE));
+
+		return convertView;
+	}
+
+}

@@ -1,0 +1,47 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1382838891665 317 26b92621f5bafc93d2f7f4371fe57fe93e5461b0 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-mdpi\ic_action_edit.png
+1382838891903 404 d9f6d8dddfe151b6480de483c5d5e491f3078353 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\menu\edit_menu.xml
+1382838891902 2248 ec023f4b2ea64f8147edde6c705b4e4020e78850 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\layout\activity_edit_address.xml
+1382838890805 152 f4f9dbdc1cf18a050192f127c05fae858955ef8a E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xhdpi\ic_action_new.png
+1382838891127 3533 58a851e5a5024d76cbdb8db59d9e671c49018925 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\layout\activity_view_contact.xml
+1382838891872 5389 3395fb1441a7a854934b7f1eb8d949ad2cf30414 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xhdpi\ic_launcher.png
+1382838890176 341 b624d469d4874d1c8ba95d2983671fc98b119fbc E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\values-v14\values.xml
+1382838891190 940 967fa7e6cb28909f22ba5cf9f488d8d75a09ae36 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\menu\main_menu.xml
+1382838891912 252 50e54d1f7da06c7e36d66826575919ce64d833df E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-mdpi\ic_action_discard.png
+1382838891832 2223 a6981180a4554ff38d519f009b98858585a7855c E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-mdpi\ic_launcher.png
+1382838891755 9042 6385b3b93068c9e5faf98f5341b08ca26373b281 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
+1382838891369 483 a8acc65c6d42e1a1556359faf41b0ccb84094764 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xhdpi\ic_action_search.png
+1382838891126 614 a323ada9575113532c284d3e4eaf8b67a7a0fe08 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\layout\activity_main.xml
+1382838891498 642 a9fecf000fda81f18799631bfd2bcfe6404a564a E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xxhdpi\ic_action_search.png
+1382838891905 1517 2348dcc7a56398db541ca121fe6009fe11b30c03 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\layout\simple_contact_row.xml
+1382838890831 465 a7657405b3be661d2a79fdf4132cf1c53c272d1c E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xxhdpi\ic_action_discard.png
+1382838891999 735 1042f8be6cd89925986116c9adb51b9657710a2a E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xxhdpi\ic_action_edit.png
+1382838890171 4274 c507307c5504a04cee9d96873ca1396a9703b889 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\values\values.xml
+1382838891986 202 ccbb0b74f431419104a490a51bc59e9760893978 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-mdpi\ic_action_accept.png
+1382838891028 237 74adbd48b450c427c159fcdfb7512ed5d4946ea9 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-hdpi\ic_action_accept.png
+1382838890859 383 736e44647dc18d0c874b2fbe6229c03e5de44261 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xxhdpi\ic_action_next_item.png
+1382838891714 534 a1d3e72ce192943322589426280ef78ed1a1f9eb E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xhdpi\ic_action_edit.png
+1382838891290 402 028e1ab574e6f09f36d54d4ca58444dee8325839 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\menu\save_menu.xml
+1382838891281 275 a81dfb22fbe831e123b99179952ccd2f56adb2cc E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-hdpi\ic_action_next_item.png
+1382838891556 368 9f88a9da0e5c5ab05076a24ed98a44f02e5f283e E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xhdpi\ic_action_discard.png
+1382838891347 133 0825663e380c074734bcb34f95ac71c3a7db2152 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-mdpi\ic_action_new.png
+1382838891562 4834 d6df82634f6df8e045b40329a5481897bc03dccf E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\layout\detailed_address_row.xml
+1382838891938 1730 8a81c50f36d8fb78c2444b57fecbbec9f87431f8 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\layout\activity_add_contact.xml
+1382838891956 322 c5441cb2cc23e4769b7b6b2230553d93ff2d037d E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-hdpi\ic_action_discard.png
+1382838891546 308 351e10acfc276e1f9211b5486a93b0e107adbb41 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xhdpi\ic_action_next_item.png
+1382838891137 393 fb080add5d6792da37a3e3690887ce42afba0fd0 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-hdpi\ic_action_search.png
+1382838891840 1750 81455e5f558fb734625388a45716fc818ef252ad E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\layout\activity_add_address.xml
+1382838891766 169 7a607fdc9dfbb43ecd34ecaa11efddec90cf6b33 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xxhdpi\ic_action_new.png
+1382838891048 430 52fcf1fba75a8ea3be45add58dcbb49eca846314 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-hdpi\ic_action_edit.png
+1382838891244 167 377b48635b17bc195e4f197e184404454218c006 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-hdpi\ic_action_new.png
+1382838891293 3411 283b257e318b1b4f4b5bca19e5aead1004f55f72 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\layout\activity_edit_contact.xml
+1382838890190 256 bcb9e36d66252774595c8aaa22d324c522e8605d E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\values-sw720dp-land\values.xml
+1382838890969 787 e99e4c6c90be4fbb66d2807d969066924782477d E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\layout\simple_address_row.xml
+1382838891069 270 c1f4280f3458425efea8119ed94d0c69239d5649 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xhdpi\ic_action_accept.png
+1382838891949 335 8d47229eb31d70ebfe15e55803dbefff1697c4a0 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-xxhdpi\ic_action_accept.png
+1382838890179 327 8d041aefe8761abd6c8d3d7d61977310fe41e0d2 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\values-v11\values.xml
+1382838891862 316 a26e9cc71402a54f4936d414c1293d9408470d78 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-mdpi\ic_action_search.png
+1382838891714 3796 971135669349aea058f88f6bbdf0f2afc0243a37 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-hdpi\ic_launcher.png
+1382838890831 225 235d6447d27c0f5ca6ebfe880c75f683f9d5ccd7 E:\Dropbox\Android Workspace\MyContacts\build\res\all\debug\drawable-mdpi\ic_action_next_item.png

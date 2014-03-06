@@ -1,0 +1,44 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1382839578693 6002 aaa4848c3845193666d4dd35165923897db68e78 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\MainActivity.class
+1382839579346 817 74a61649684aecefd767451a548de54023f02094 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\edu\icom4035\mycontacts\R.class
+1382839579373 494 806afe368b10c04e1ecafc5a9dd6c6df1167808c E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\edu\icom4035\mycontacts\BuildConfig.class
+1382839578313 2385 ddd0daed82e594708ccbec14e478d399f851ada2 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\adapters\SimpleAddressListAdapter.class
+1382839579327 2393 45175c9522e143222fefc6cb729af1d34cd14c45 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\edu\icom4035\mycontacts\R$string.class
+1382839578193 1539 e9f3d7c7a15660b47249282fc153dceea4617a92 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\EditContact$4.class
+1382839576323 1442 7a221d844ca50d2aab88225ad35ce3a6f1be6970 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\managers\Contact$Address.class
+1382839576735 3966 b83e3afa423591a0866947f464d29d6fd8a5b83f E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\AddAddress.class
+1382839578620 987 f9a97f813d024234c7119926f0b251f74eb9ce3e E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\MainActivity$3.class
+1382839578117 1268 30482c779133bca1a69183aac6b953c75ffe2ee3 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\EditContact$1.class
+1382839577581 975 faeda7ff94eaed64562354ecbacf5957dbc7f7b1 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\EditAddress$1.class
+1382839579284 688 60119e31919c1f2a3e55bf31bc52c48846ebdab3 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\edu\icom4035\mycontacts\R$drawable.class
+1381801764180 556198 4a6be13368bb64c5a0b0460632d228a1a915f58f E:\Dropbox\Android Workspace\MyContacts\libs\android-support-v4.jar
+1382839579239 382 131e7f63b31933dd859d194ebc0d807505ff80c8 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\edu\icom4035\mycontacts\R$attr.class
+1382839577315 969 dc63c61f0e14f5b2e9203e084bb4af874c21f091 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\AddContact$1.class
+1382839579314 501 4394216fbe2f28ed333213e86fe074ebe937a740 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\edu\icom4035\mycontacts\R$menu.class
+1382839577646 1582 3bc42115854b1b461767b8d9d97198c848b29422 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\EditAddress$3.class
+1382839578228 7733 93c3046db19d266e0c9485d7b507ce31f93dc7bc E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\EditContact.class
+1382839576971 1760 1f8fd466b446a095c192dd3394e72d21e0ba0666 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\managers\SortedArrayList$ListIterator.class
+1382839577615 1002 5af48956a213170739cbd430521640200f94e56c E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\EditAddress$2.class
+1382839578562 1775 c0754ecc50ddc94b38bc5aa28917a6d703f9d002 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\MainActivity$1.class
+1382839578165 1002 9a9fa7c78ebab352107b5e73b9b9e94a301e2a01 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\EditContact$3.class
+1382839578647 1675 9cbfc724918864b5160286b811e925238a911cde E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\MainActivity$4.class
+1382839579093 4513 0eafa0caf1c2209b577de6c3a24ae779dc011590 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\ViewContact.class
+1382839577009 5021 cce376a1d9eeb78746ca6c3c12cdc05488c65354 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\managers\SortedArrayList.class
+1382839577703 5747 3ed4c506c29eabaab8a2a6ac3fec0f9fdd36e3a1 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\EditAddress.class
+1382839576431 3752 51bd5dd6337c557ba50b2f6e40ae512013dc41fe E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\managers\Contact.class
+1382839579167 2566 4000158d4eea24a34a79bd91713022cfa55c08ac E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\adapters\DetailedAddressListAdapter.class
+1382839578141 975 9642f5bb7edaf9f8f6d3f2cdfe0af41958f88be6 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\EditContact$2.class
+1382839578825 2932 65e419f94a66a3424646f46ef50f07d92270d92f E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\adapters\MainListAdapter$filter_here.class
+1382839578862 3641 3fe5f820500a26a1c438a237e4dd6236be35cdaa E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\adapters\MainListAdapter.class
+1382839579303 796 9dfc0e0dea1a83010695b4247013a8145b1f6fad E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\edu\icom4035\mycontacts\R$layout.class
+1382839579292 1959 4d0b8bcd213f4130d263a6f4973e13dc88e4edb5 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\edu\icom4035\mycontacts\R$id.class
+1382839577155 3736 dc44fbf4f1ba8f1e17d18945f2363a73f79853e8 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\managers\ContactStore.class
+1382839577041 807 0cfe266a3cc1ef0aa8d9f1189cbcd58eee0e4669 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\managers\SortedList.class
+1382839579334 473 1343714e9b78111e45615acf50aa71a8ecaba509 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\edu\icom4035\mycontacts\R$style.class
+1382839579255 791 3dbe1037cc649853ef447be3ad90b01981e3e8b7 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\edu\icom4035\mycontacts\R$dimen.class
+1382839578583 1753 342c82fd7e4330fb81e273722b1687958708e9f9 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\MainActivity$2.class
+1382839576822 4143 da0bf4f496b43c11a08bab94631e9c6c48630a9f E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\managers\ContactsManager.class
+1382839577351 3591 603752ef3b535f9307b07e4752bc49f9b9480304 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\AddContact.class
+1382839576716 969 72816c22cf257ff1ad4fd0eb85bcf3e9abfc5c17 E:\Dropbox\Android Workspace\MyContacts\build\classes\debug\edu\uprm\ece\icom4035\mycontacts\activities\AddAddress$1.class

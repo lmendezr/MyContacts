@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding" >
+
+    <EditText
+        android:id="@+id/edit_first_name_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_first_name"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edit_last_name_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_last_name" />
+
+    <EditText
+        android:id="@+id/edit_cell_phone_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_cell_phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edit_work_phone_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_work_phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edit_email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress" />
+
+</LinearLayout>
